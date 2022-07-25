@@ -5,6 +5,8 @@ Resource  ../Resource/Variable.robot
 
 
 
+
+
 *** Test Cases ***
 Login to Myntra Website
     Open the Myntra Website

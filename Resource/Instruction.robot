@@ -1,6 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
 
+
 *** Keywords ***
 Open the Myntra Website
 
@@ -18,4 +19,8 @@ Scroll to Menu
     Sleep  3s
     Scroll Element Into View  ${Sports Shoes}
     Page Should Contain  AFFORDABLE FASHION AT YOUR FINGERTIPS
+    ${pagecontext}=  Get Text  ${page1}
+    BuiltIn.Log To Console   ${pagecontext}
+
+
 

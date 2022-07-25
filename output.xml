@@ -1,88 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220722 14:42:36.915" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220725 13:03:02.658" rpa="false" schemaversion="3">
 <suite id="s1" name="TC1" source="D:\MyntraRobot\TestCases\TC1.robot">
-<test id="s1-t1" name="Login to Myntra Website" line="9">
+<test id="s1-t1" name="Login to Myntra Website" line="11">
 <kw name="Open the Myntra Website" library="Instruction">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${URL}</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220722 14:42:37.430" level="INFO">Opening browser 'chrome' to base url 'https://www.myntra.com/'.</msg>
-<status status="PASS" starttime="20220722 14:42:37.430" endtime="20220722 14:42:46.029"/>
+<msg timestamp="20220725 13:03:03.045" level="INFO">Opening browser 'chrome' to base url 'https://www.myntra.com/'.</msg>
+<status status="PASS" starttime="20220725 13:03:03.044" endtime="20220725 13:03:08.392"/>
 </kw>
-<status status="PASS" starttime="20220722 14:42:37.429" endtime="20220722 14:42:46.029"/>
+<status status="PASS" starttime="20220725 13:03:03.043" endtime="20220725 13:03:08.393"/>
 </kw>
 <kw name="Login to myntra" library="Instruction">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Sigin}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220722 14:42:46.034" level="INFO">Clicking element 'xpath://span[@class='myntraweb-sprite desktop-iconUser sprites-headerUser']'.</msg>
-<status status="PASS" starttime="20220722 14:42:46.033" endtime="20220722 14:42:46.333"/>
+<msg timestamp="20220725 13:03:08.396" level="INFO">Clicking element 'xpath://span[@class='myntraweb-sprite desktop-iconUser sprites-headerUser']'.</msg>
+<status status="PASS" starttime="20220725 13:03:08.395" endtime="20220725 13:03:08.553"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Login}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220722 14:42:46.333" level="INFO">Clicking element 'xpath://a[@class='desktop-linkButton']'.</msg>
-<status status="PASS" starttime="20220722 14:42:46.333" endtime="20220722 14:42:49.409"/>
+<msg timestamp="20220725 13:03:08.554" level="INFO">Clicking element 'xpath://a[@class='desktop-linkButton']'.</msg>
+<status status="PASS" starttime="20220725 13:03:08.553" endtime="20220725 13:03:11.506"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220722 14:42:52.414" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220722 14:42:49.409" endtime="20220722 14:42:52.414"/>
+<msg timestamp="20220725 13:03:14.508" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220725 13:03:11.506" endtime="20220725 13:03:14.508"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Username}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220722 14:42:52.415" level="INFO">Clicking element 'xpath://input[@type='tel']'.</msg>
-<status status="PASS" starttime="20220722 14:42:52.414" endtime="20220722 14:42:52.595"/>
+<msg timestamp="20220725 13:03:14.509" level="INFO">Clicking element 'xpath://input[@type='tel']'.</msg>
+<status status="PASS" starttime="20220725 13:03:14.508" endtime="20220725 13:03:14.668"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${Username}</arg>
 <arg>8087102682</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20220722 14:42:52.596" level="INFO">Typing text '8087102682' into text field 'xpath://input[@type='tel']'.</msg>
-<status status="PASS" starttime="20220722 14:42:52.595" endtime="20220722 14:42:52.813"/>
+<msg timestamp="20220725 13:03:14.670" level="INFO">Typing text '8087102682' into text field 'xpath://input[@type='tel']'.</msg>
+<status status="PASS" starttime="20220725 13:03:14.669" endtime="20220725 13:03:14.857"/>
 </kw>
 <kw name="Clear Element Text" library="SeleniumLibrary">
 <arg>${Username}</arg>
 <doc>Clears the value of the text-input-element identified by ``locator``.</doc>
-<status status="PASS" starttime="20220722 14:42:52.813" endtime="20220722 14:42:52.868"/>
+<status status="PASS" starttime="20220725 13:03:14.857" endtime="20220725 13:03:14.918"/>
 </kw>
-<status status="PASS" starttime="20220722 14:42:46.033" endtime="20220722 14:42:52.869"/>
+<status status="PASS" starttime="20220725 13:03:08.394" endtime="20220725 13:03:14.918"/>
 </kw>
 <kw name="Go to Myntra Home Page" library="Instruction">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Homepage}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220722 14:42:52.879" level="INFO">Clicking element 'xpath://div[@class='desktop-logo myntraweb-sprite']'.</msg>
-<status status="PASS" starttime="20220722 14:42:52.879" endtime="20220722 14:42:54.534"/>
+<msg timestamp="20220725 13:03:14.923" level="INFO">Clicking element 'xpath://div[@class='desktop-logo myntraweb-sprite']'.</msg>
+<status status="PASS" starttime="20220725 13:03:14.922" endtime="20220725 13:03:18.099"/>
 </kw>
-<status status="PASS" starttime="20220722 14:42:52.878" endtime="20220722 14:42:54.534"/>
+<status status="PASS" starttime="20220725 13:03:14.922" endtime="20220725 13:03:18.099"/>
 </kw>
 <kw name="Scroll to Menu" library="Instruction">
 <kw name="Sleep" library="BuiltIn">
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220722 14:42:57.572" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220722 14:42:54.564" endtime="20220722 14:42:57.572"/>
+<msg timestamp="20220725 13:03:21.112" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220725 13:03:18.101" endtime="20220725 13:03:21.112"/>
 </kw>
 <kw name="Scroll Element Into View" library="SeleniumLibrary">
 <arg>${Sports Shoes}</arg>
 <doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="PASS" starttime="20220722 14:42:57.573" endtime="20220722 14:42:58.037"/>
+<status status="PASS" starttime="20220725 13:03:21.112" endtime="20220725 13:03:26.434"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>AFFORDABLE FASHION AT YOUR FINGERTIPS</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20220722 14:42:58.079" level="INFO">Current page contains text 'AFFORDABLE FASHION AT YOUR FINGERTIPS'.</msg>
-<status status="PASS" starttime="20220722 14:42:58.038" endtime="20220722 14:42:58.080"/>
+<msg timestamp="20220725 13:03:26.470" level="INFO">Current page contains text 'AFFORDABLE FASHION AT YOUR FINGERTIPS'.</msg>
+<status status="PASS" starttime="20220725 13:03:26.435" endtime="20220725 13:03:26.470"/>
 </kw>
-<status status="PASS" starttime="20220722 14:42:54.563" endtime="20220722 14:42:58.080"/>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${pagal}</var>
+<arg>${page1}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20220725 13:03:26.502" level="INFO">${pagal} = If you would like to experience the best of online shopping for men, women and kids in India, you are at the right place. Myntra is the ultimate destination for fashion and lifestyle, being host to a ...</msg>
+<status status="PASS" starttime="20220725 13:03:26.470" endtime="20220725 13:03:26.502"/>
 </kw>
-<status status="PASS" starttime="20220722 14:42:37.427" endtime="20220722 14:42:58.086"/>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${pagal}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220725 13:03:26.503" endtime="20220725 13:03:26.503"/>
+</kw>
+<status status="PASS" starttime="20220725 13:03:18.100" endtime="20220725 13:03:26.504"/>
+</kw>
+<status status="PASS" starttime="20220725 13:03:03.042" endtime="20220725 13:03:26.504"/>
 </test>
-<status status="PASS" starttime="20220722 14:42:36.917" endtime="20220722 14:42:58.094"/>
+<status status="PASS" starttime="20220725 13:03:02.661" endtime="20220725 13:03:26.506"/>
 </suite>
 <statistics>
 <total>
